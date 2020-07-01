@@ -39,10 +39,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"-->
 
-
-            <!--Task3 android:layout_width="wrap_content" -->
-
-            <!--Challenge-->
             <TextView
                 android:id="@+id/article"
                 android:layout_width="match_parent"
@@ -51,18 +47,17 @@
                 android:lineSpacingExtra="@dimen/line_spacing"
                 android:padding="@dimen/padding_regular"
                 android:text="@string/article_text" />
+            <!--Task3 android:layout_width="wrap_content" -->
 
+            <!--Challenge-->
             <Button
                 android:id="@+id/button_AddComment"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/add_comment" />
 
-
         </LinearLayout>
 
     </ScrollView>
-
-
 
 </RelativeLayout>
